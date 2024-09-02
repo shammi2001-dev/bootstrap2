@@ -1,0 +1,641 @@
+/*COMMON CSS START*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6{
+    line-height: 0.8;
+}
+/*COMMON CSS END*/
+
+/*NAVBAR CSS START*/
+.navbar{
+    background: #1C1E53;
+    width: 100%;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #BBBBCB;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 30px 25px;
+}
+.nav-btn{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left:30px;
+}
+.nav-btn button{
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.20);
+    padding: 16px 48px;
+    background: #1C1E53;
+
+
+}
+.nav-btn button .text{
+    color: var(--white, #FFF);
+
+/* Body 2 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; 
+text-transform: capitalize;
+}
+/*NAVBAR CSS END*/
+
+/*BANNER CSS START*/
+#banner{
+    background: var(--tint-blue, #1C1E53);
+    padding: 128px 0;
+    
+}
+.banner-details{
+    position: relative;
+    
+}
+.banner-details h1{
+    color: var(--white, #FFF);
+
+    /* Heading 1 */
+    font-family: Poppins;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 74px; /* 137.037% */
+    width: 582px;
+}
+.banner-details p{
+    color: var(--white, #FFF);
+
+/* Body 2 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 175% */
+padding-top: 24px;
+padding-bottom: 48px;
+}
+.banner-btn{
+    display: flex;
+}
+.banner-btn button{
+    padding: 16px 56px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 41px;
+background: #FCD980;
+border: none;
+  
+}
+.banner-details a{
+    color: var(--white, #FFF);
+
+/* Label 2 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+padding: 20px 20px;
+}
+.banner-btn .arrow1{
+    fill: var(--white, #FFF);
+stroke-width: 1.5px;
+padding-top: 20px;
+}
+/*BANNER CSS END*/ 
+
+/*WORK CSS START*/
+#work{
+    background: #F4F6FC;
+    padding: 138px 0;
+    position: relative;
+}
+.work-details{
+    position: relative;
+}
+.work-details h2{
+    color: var(--dark-blue, #282938);
+
+/* Heading 2 */
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px; /* 133.333% */
+}
+.work-details p{
+    color: var(--dark-blue, #282938);
+
+/* Body 1 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+width: 405px;
+padding: 16px 0;
+}
+.work-details a{
+    color: var(--royal-blue, #2405F2);
+
+/* Label 01 */
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 177.778% */
+}
+.work-more{
+    display: flex;
+}
+.work-more .arrow2{
+    padding-left: 16px;
+    stroke-width: 1.5px;
+}
+.work-info{
+    display: flex;
+}
+
+.work-design h3{
+    color: var(--dark-blue, #282938);
+
+/* Heading 5 */
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 48px; /* 150% */
+padding-top: 16px;
+}
+.work-design p{
+    color: var(--dark-blue, #282938);
+
+/* Body 1 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+width: 303px;
+}
+.work-development h3{
+    color: var(--dark-blue, #282938);
+
+/* Heading 5 */
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 48px; /* 150% */
+padding-top: 16px;
+}
+.work-development p{
+    color: var(--dark-blue, #282938);
+
+/* Body 1 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+width: 303px;
+}
+/*WORK CSS END*/
+
+/*PROJECT CSS START*/
+#project{
+    padding: 128px 0;
+    position: relative;
+}
+.project-head h2{
+    color: var(--dark-blue, #282938);
+
+/* Heading 2 */
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+padding-bottom: 64px;
+}
+.proimg2{
+    padding-top: 30px;
+}
+/*PROJECT CSS END*/
+
+/*DESIGN CSS START*/
+#design{
+    background: var(--grey, #F4F6FC);
+    padding: 128px 0;
+}
+.design-head h6{
+    color: var(--dark-blue, #282938);
+text-align: center;
+
+/* Label 2 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 175% */
+}
+.design-head h2{
+    color: var(--dark-blue, #282938);
+text-align: center;
+
+/* Heading 2 */
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px; /* 133.333% */
+width: 630px;
+margin: 0 auto;
+padding-bottom: 47px;
+}
+
+.design-card{
+    background: #FFF;
+    padding-top: 53px;
+    padding-bottom: 50px;
+    padding-left: 48px;
+    padding-right: 32px;
+    margin-top: 30px;
+    
+}
+.design-card h3{
+    color: var(--dark-blue, #282938);
+
+/* Heading 6 */
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px; /* 150% */
+padding-top: 23px;
+
+}
+.design-card p{
+    color: var(--dark-blue, #282938);
+
+/* Body 1 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+/*DESIGN CSS END*/
+
+/*CLIENTS CSS START*/
+#clients{
+background: var(--grey, #f4f6fcd7);
+padding: 120px 0;
+position: relative;
+}
+.about h3{
+    width: 327px;
+    color: var(--dark-blue, #282938);
+
+/* Heading 3 */
+font-family: Poppins;
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px; /* 147.368% */
+}
+.about p{
+    color: var(--dark-blue, #282938);
+
+/* Body 1 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+opacity: 0.699999988079071;
+width: 327px;
+}
+.agency p{
+    color: var(--dark-blue, #282938);
+
+/* Heading 5 */
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 48px; /* 150% */
+width: 843px;
+}
+.agency-women{
+ display: flex;
+ padding-top: 50px;
+}
+.women-text{
+    padding-left: 10px;
+}
+.women-text h5{
+    color: var(--dark-blue, #282938);
+
+/* Label 01 */
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 177.778% */
+}
+.women-text p{
+    color: var(--dark-blue, #282938);
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 233.333% */
+}
+/*CLIENTS CSS END*/
+
+/*QUESTION CSS START*/
+#question{
+    padding: 130px 0;
+}
+.question-left h2{
+    color: var(--dark-blue, #282938);
+
+/* Heading 3 */
+font-family: Poppins;
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px; /* 147.368% */
+width: 328px;
+}
+.question-left a{
+    color: var(--royal-blue, #2405F2);
+text-align: center;
+
+/* Label 01 */
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 177.778% */
+}
+.question-right h4{
+    color: var(--dark-blue, #282938);
+
+/* Heading 6 */
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 70px; /* 150% */
+margin-left: 100px;
+}
+/*QUESTION CSS END*/
+
+/*INQUIRY CSS START*/
+#inquiry{
+    padding-bottom: 128px;
+}
+.inquiry-img{
+    background: url(../images/inquiry.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    padding-top: 97px;
+    padding-bottom: 260px;
+    padding-left: 96px;
+    padding-right: 96px;
+    position: relative;
+    z-index: 1;
+}
+.inquiry-img::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(28, 30, 83, 0.50);
+    z-index: -1;
+}
+.inquiry-img h2{
+    color: var(--white, #FFF);
+
+/* Heading 1 */
+font-family: Poppins;
+font-size: 54px;
+font-style: normal;
+font-weight: 600;
+line-height: 74px; /* 137.037% */
+}
+.inquiry-img p{
+    color: #FFF;
+
+/* Body 2 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 175% */
+padding-top: 24px;
+}
+.inquiry-info{
+    background: #1C1E53;
+    padding-top: 97px;
+    padding-bottom: 48px;
+    padding-left: 96px;
+    padding-right: 96px;
+}
+.inquiry-info h3{
+    color: #FFF;
+
+/* Heading 5 */
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 48px; /* 150% */
+}
+.inquiry-info p{
+    color: var(--grey, #F4F6FC);
+
+/* Label 2 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 175% */
+}
+.inquiry-info h6{
+    color: var(--grey, #F4F6FC);
+
+/* Body 1 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+opacity: 0.5;
+padding: 20px 0;
+}
+.inquiry-info button{
+    display: flex;
+width: 432px;
+height: 64px;
+padding: 15px 51px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 41px;
+background: #FCD980;
+border: none;
+
+}
+.inquiry-info a{
+    color: var(--white, #FFF);
+
+    /* Label 01 */
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145px;
+
+    
+}
+/*INQUIRY CSS END*/
+
+/*BLOG CSS START*/
+#blog{
+    padding-bottom: 128px;
+}
+.blog-img{
+    padding-top: 64px;
+   
+}
+.blog-text{
+    padding-top: 40px;
+}
+.blog-text p{
+    color: var(--dark-blue, #282938);
+
+    /* Label 2 */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    opacity: 0.699999988079071;
+}
+.blog-text h4{
+    color: var(--dark-blue, #282938);
+
+/* Heading 6 */
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px; /* 150% */
+}
+.blog-text a{
+    color: #282938;
+
+/* Label 2 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 175% */
+}
+/*BLOG CSS END*/
+
+/*FOOTER CSS START*/
+#footer{
+    background: #1C1E53;
+    
+}
+.footer-left{
+    padding-top: 100px;
+}
+.footer-left p{
+    color: var(--white, #FFF);
+
+/* Label 2 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 175% */
+opacity: 0.800000011920929;
+width: 399px;
+padding-top: 22px;
+padding-bottom: 20px;
+}
+.mail{
+    background: var(--yellow, #FCD980);
+    padding: 18px 37px;
+}
+.mail h5{
+    color: var(--dark-blue, #282938);
+
+/* Label 01 */
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 177.778% */
+}
+.mail h6{
+    color: var(--dark-blue, #282938);
+
+/* Body 1 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+opacity: 0.800000011920929;
+}
+.footer-right{
+    padding: 96px 142px;
+}
+.footer-right h2{
+    color: #FFF;
+
+    /* Heading 2 */
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+}
+.footer-right p{
+    color: var(--grey, #F4F6FC);
+
+/* Body 1 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+width: 399px;
+opacity: 0.800000011920929;
+}
+/*FOOTER CSS END*/
+#end{
+    background: var(--white, #FFF);
+}
